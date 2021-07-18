@@ -10,7 +10,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-from Win31 import Ui_MainWindow2
+from Win31rtgP import Ui_MainWindow21
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -61,7 +61,7 @@ class Ui_MainWindow(object):
         self.pushButton_3.clicked.connect(self.win3)
     def win3(self):
         self.Form = QtWidgets.QMainWindow()
-        self.ui = Ui_MainWindow2()
+        self.ui = Ui_MainWindow21()
         self.ui.setupUi(self.Form)
         self.Form.show()
 

@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from Win31 import Ui_MainWindow2
+from Win31o import Ui_MainWindow2
 from Win1 import Ui_MainWindow
 
 class Ui_MainWindow1(object):
@@ -75,9 +75,9 @@ class Ui_MainWindow1(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.B1.setText(_translate("MainWindow", "Zmiany w siatkówce oka"))
+        self.B1.setText(_translate("MainWindow", "Angiografia dna oka"))
         self.B2.setText(_translate("MainWindow", "Zmiany w mózgu"))
-        self.B3.setText(_translate("MainWindow", "Zmiany w płucach"))
+        self.B3.setText(_translate("MainWindow", "Choroby płuc"))
         self.label_2.setText(_translate("MainWindow", "Rodzaj rozpoznania choroby"))
         self.menuPlik.setTitle(_translate("MainWindow", "File"))
         self.menuabout.setTitle(_translate("MainWindow", "About"))
